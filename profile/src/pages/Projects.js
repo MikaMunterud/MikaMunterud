@@ -51,8 +51,8 @@ export default function Projects() {
           linkTextGit={t("project_gitHub")}
           imgLink={"https://i.ibb.co/hm1WcpG/recipe-Homepage.png"}
           imgAlt={"My recipe Homepage"}
-          heading={"Heading"}
-          description={""}
+          heading={t("myRecipeBook")}
+          description={t("myRecipeBook_description")}
           webbLang={"🇸🇪"}
         />
 
@@ -63,8 +63,8 @@ export default function Projects() {
           linkTextGit={t("project_gitHub")}
           imgLink={"https://i.ibb.co/LhBrPGb/twitter-Homepage.png"}
           imgAlt={"My Twitter Homepage Clone"}
-          heading={"Heading"}
-          description={""}
+          heading={t("twitterClone")}
+          description={t("twitterClone_description")}
           webbLang={"🇬🇧"}
         />
 
@@ -75,8 +75,8 @@ export default function Projects() {
           linkTextGit={t("project_gitHub")}
           imgLink={"https://i.ibb.co/hgqnZ1T/pizza-Homepage.png"}
           imgAlt={"My Pizza restaurant Homepage"}
-          heading={"Heading"}
-          description={""}
+          heading={t("pizzaRestaurant")}
+          description={t("pizzaRestaurant_description")}
           webbLang={"🇬🇧"}
         />
       </div>
