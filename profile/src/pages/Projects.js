@@ -79,17 +79,6 @@ export default function Projects() {
           description={""}
           webbLang={"🇬🇧"}
         />
-        <Project
-          linkWebb={"https://mikamunterud.github.io/Pizza-restaurant/"}
-          linkGit={"https://github.com/MikaMunterud/Pizza-restaurant"}
-          linkTextWebb={t("project_webb")}
-          linkTextGit={t("project_gitHub")}
-          imgLink={"https://i.ibb.co/hgqnZ1T/pizza-Homepage.png"}
-          imgAlt={"My Pizza restaurant Homepage"}
-          heading={"Heading"}
-          description={""}
-          webbLang={"🇬🇧"}
-        />
       </div>
     </section>
   );
