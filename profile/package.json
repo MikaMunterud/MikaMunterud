@@ -1,6 +1,5 @@
 {
   "name": "profile",
-  "homepage": "https://mikamunterud.github.io/MikaMunterud/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
