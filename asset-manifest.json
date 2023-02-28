@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MikaMunterud/profile/static/css/main.723161d3.css",
-    "main.js": "/MikaMunterud/profile/static/js/main.a8fe9dd5.js",
-    "static/js/787.f2a0fa2f.chunk.js": "/MikaMunterud/profile/static/js/787.f2a0fa2f.chunk.js",
-    "index.html": "/MikaMunterud/profile/index.html",
-    "static/media/getFetch.cjs": "/MikaMunterud/profile/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.723161d3.css.map": "/MikaMunterud/profile/static/css/main.723161d3.css.map",
-    "main.a8fe9dd5.js.map": "/MikaMunterud/profile/static/js/main.a8fe9dd5.js.map",
-    "787.f2a0fa2f.chunk.js.map": "/MikaMunterud/profile/static/js/787.f2a0fa2f.chunk.js.map"
+    "main.css": "/MikaMunterud/static/css/main.723161d3.css",
+    "main.js": "/MikaMunterud/static/js/main.9ed3646a.js",
+    "static/js/787.f2a0fa2f.chunk.js": "/MikaMunterud/static/js/787.f2a0fa2f.chunk.js",
+    "index.html": "/MikaMunterud/index.html",
+    "static/media/getFetch.cjs": "/MikaMunterud/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.723161d3.css.map": "/MikaMunterud/static/css/main.723161d3.css.map",
+    "main.9ed3646a.js.map": "/MikaMunterud/static/js/main.9ed3646a.js.map",
+    "787.f2a0fa2f.chunk.js.map": "/MikaMunterud/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.723161d3.css",
-    "static/js/main.a8fe9dd5.js"
+    "static/js/main.9ed3646a.js"
   ]
 }
