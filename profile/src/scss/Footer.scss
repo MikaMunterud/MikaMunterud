@@ -1,0 +1,62 @@
+#footer {
+  position: relative;
+  background-color: #755552;
+  color: #fefefe;
+  align-items: center;
+  padding-bottom: 32px;
+  & .arrowUp {
+    position: absolute;
+    display: flex;
+    background-color: #fefefe;
+    color: #755552;
+    border-radius: 50%;
+    font-size: 2.4em;
+    font-weight: bolder;
+    text-decoration: none;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    & svg {
+      display: flex;
+      background-color: #75555255;
+      width: 100%;
+      height: 100%;
+    }
+    &:hover {
+      transform: translate(-50%, -65%);
+    }
+  }
+
+  & .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    & a,
+    .mail {
+      display: flex;
+      flex-direction: row;
+      color: inherit;
+      font-size: 2em;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 12px;
+      cursor: pointer;
+      &.mail {
+        font-size: 2.5em;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+      & svg {
+        display: flex;
+      }
+    }
+  }
+}

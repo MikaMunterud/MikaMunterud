@@ -1,0 +1,109 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .contactSection {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    @media only screen and (max-width: 900px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    & .contactForm {
+      display: flex;
+      flex-direction: column;
+      background-color: #75555255;
+      padding: 32px;
+      border-radius: 16px;
+      width: 50%;
+      gap: 4px;
+      @media only screen and (max-width: 900px) {
+        width: 100%;
+        max-width: 500px;
+      }
+      &.message {
+        text-align: center;
+        font-weight: bold;
+        transition: all 0.5s ease-in-out;
+      }
+      & label {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      & input,
+      textarea {
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        padding: 4px 8px;
+        margin-bottom: 4px;
+        font-size: 1em;
+        color: inherit;
+        resize: none;
+      }
+
+      & button {
+        background-color: #755552aa;
+        color: #fefefe !important;
+        outline: none;
+        border-radius: 8px;
+        padding: 4px 8px;
+        margin: 8px 0 4px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: inherit;
+        border: none;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+        &:active {
+          transform: translateY(2px);
+        }
+      }
+    }
+
+    & .contactDetails {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin-bottom: 64px;
+      @media only screen and (max-width: 900px) {
+        width: 100%;
+        max-width: 500px;
+      }
+
+      & .sideMessage {
+        text-align: justify;
+      }
+      & .contactIons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        & a,
+        .mail {
+          display: flex;
+          flex-direction: row;
+          color: inherit;
+          font-size: 2em;
+          font-weight: bold;
+          text-decoration: none;
+          margin: 0 12px;
+          &.mail {
+            font-size: 2.5em;
+          }
+          &:hover {
+            opacity: 0.7;
+          }
+          & svg {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

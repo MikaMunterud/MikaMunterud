@@ -1,0 +1,136 @@
+#resume {
+  display: flex;
+  flex-direction: column;
+  & .resumeSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    @media only screen and (max-width: 650px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    &_heading {
+      width: 280px;
+      align-items: flex-start;
+    }
+    &_details {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      width: calc(100% - 280px);
+      @media only screen and (max-width: 650px) {
+        width: 100%;
+      }
+      &_school,
+      &_work {
+        display: flex;
+        flex-direction: column;
+
+        & .jobDescription,
+        .schoolCourses {
+          display: flex;
+          text-align: justify;
+
+          & .heading {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: bold;
+            list-style: none;
+
+            &.course {
+              font-size: 1em;
+            }
+            &::marker {
+              content: none;
+            }
+            &::-webkit-details-marker {
+              display: none;
+            }
+
+            &:hover > .paperPlane {
+              margin-left: 12px;
+            }
+
+            & .paperPlane {
+              margin-left: 8px;
+              display: inline-flex;
+              transition: 0.4s;
+              rotate: 90deg;
+            }
+          }
+
+          &[open] .paperPlane {
+            margin-left: 12px;
+            transform: rotate(90deg);
+          }
+          // &[open] .heading:hover > .paperPlane {
+          //   transform: rotate(0deg);
+          // }
+        }
+
+        & .courses {
+          display: flex;
+          flex-direction: row;
+          margin: 0 32px;
+          width: calc(100% - 32px);
+          gap: 32px;
+          font-size: 1.2em;
+          @media only screen and (max-width: 1000px) {
+            flex-direction: column;
+          }
+          &_col {
+            width: 50%;
+            @media only screen and (max-width: 1000px) {
+              width: 100%;
+            }
+            & ul {
+              list-style: none;
+              gap: 8px 32px;
+              margin: 0;
+              padding: 0;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+    &_skills {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      row-gap: 32px;
+
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      @media (max-width: 900px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+
+      & h3 {
+        margin-bottom: 4px;
+        font-style: italic;
+      }
+      & .progressBar {
+        height: 25px;
+        max-width: 300px;
+        width: 80%;
+        border: 0;
+        border-radius: 15px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        -webkit-appearance: none;
+        appearance: none;
+        &::-webkit-progress-bar {
+          background-color: #eae7e7;
+          border-radius: 15px;
+        }
+        &::-webkit-progress-value {
+          background-color: #755552;
+          border-radius: 15px;
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}
