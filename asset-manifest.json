@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MikaMunterud/profile/static/css/main.723161d3.css",
+    "main.js": "/MikaMunterud/profile/static/js/main.a8fe9dd5.js",
+    "static/js/787.f2a0fa2f.chunk.js": "/MikaMunterud/profile/static/js/787.f2a0fa2f.chunk.js",
+    "index.html": "/MikaMunterud/profile/index.html",
+    "static/media/getFetch.cjs": "/MikaMunterud/profile/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.723161d3.css.map": "/MikaMunterud/profile/static/css/main.723161d3.css.map",
+    "main.a8fe9dd5.js.map": "/MikaMunterud/profile/static/js/main.a8fe9dd5.js.map",
+    "787.f2a0fa2f.chunk.js.map": "/MikaMunterud/profile/static/js/787.f2a0fa2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.723161d3.css",
+    "static/js/main.a8fe9dd5.js"
+  ]
+}
