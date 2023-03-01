@@ -23,7 +23,7 @@ export default function About() {
         className="profileImage"
       >
         <img
-          src="https://i.ibb.co/YN3dbJs/profile.jpg"
+          src="https://icicathy.sirv.com/profile/profile.JPG?w=400&h=400"
           alt="profilePicture"
         ></img>
       </div>

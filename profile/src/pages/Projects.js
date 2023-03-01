@@ -26,7 +26,9 @@ export default function Projects() {
           linkTextWebb={t("project_webb")}
           linkTextGit={t("project_gitHub")}
           linkTextYouTube={t("project_youTube")}
-          imgLink={"https://i.ibb.co/NnhCGVj/storyblok-Hackathon-Hompage.png"}
+          imgLink={
+            "https://icicathy.sirv.com/profile/storyblokHackathonHompage.png?w=600"
+          }
           imgAlt={"My groups Winning Storyblok Hackathon Homepage"}
           heading={t("sassyChocolate")}
           description={t("sassyChocolate_description")}
@@ -37,7 +39,9 @@ export default function Projects() {
           linkGit={"https://github.com/MikaMunterud/Adventures"}
           linkTextWebb={t("project_webb")}
           linkTextGit={t("project_gitHub")}
-          imgLink={"https://i.ibb.co/mv6PdfX/adventure-Homepage.png"}
+          imgLink={
+            "https://icicathy.sirv.com/profile/adventureHomepage.png?w=600"
+          }
           imgAlt={"My Adventures Homepage"}
           heading={t("myAdventures")}
           description={t("myAdventures_description")}
@@ -49,7 +53,7 @@ export default function Projects() {
           linkGit={"https://github.com/MikaMunterud/Receptbok"}
           linkTextWebb={t("project_webb")}
           linkTextGit={t("project_gitHub")}
-          imgLink={"https://i.ibb.co/hm1WcpG/recipe-Homepage.png"}
+          imgLink={"https://icicathy.sirv.com/profile/recipeHomepage.png?w=600"}
           imgAlt={"My recipe Homepage"}
           heading={t("myRecipeBook")}
           description={t("myRecipeBook_description")}
@@ -61,7 +65,9 @@ export default function Projects() {
           linkGit={"https://github.com/MikaMunterud/Twitter-clone"}
           linkTextWebb={t("project_webb")}
           linkTextGit={t("project_gitHub")}
-          imgLink={"https://i.ibb.co/LhBrPGb/twitter-Homepage.png"}
+          imgLink={
+            "https://icicathy.sirv.com/profile/twitterHomepage.png?w=600"
+          }
           imgAlt={"My Twitter Homepage Clone"}
           heading={t("twitterClone")}
           description={t("twitterClone_description")}
@@ -73,7 +79,7 @@ export default function Projects() {
           linkGit={"https://github.com/MikaMunterud/Pizza-restaurant"}
           linkTextWebb={t("project_webb")}
           linkTextGit={t("project_gitHub")}
-          imgLink={"https://i.ibb.co/hgqnZ1T/pizza-Homepage.png"}
+          imgLink={"https://icicathy.sirv.com/profile/pizzaHomepage.png?w=600"}
           imgAlt={"My Pizza restaurant Homepage"}
           heading={t("pizzaRestaurant")}
           description={t("pizzaRestaurant_description")}

@@ -5,7 +5,7 @@ header {
   z-index: 10;
   width: 100vw;
   background-color: #fefefe9f;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(24px);
   height: min-content;
 
   .navBar {
@@ -32,7 +32,7 @@ header {
         display: flex;
         flex-direction: column;
         background-color: #fefefe9f;
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(24px);
         opacity: 0;
         transform: translateX(-100%);
         transition: all 1s ease-in-out;
@@ -102,11 +102,19 @@ header {
       color: inherit;
       font-size: 1.4em;
       font-weight: bold;
-      padding: 24px 0;
+      padding: 24px 18px 24px 0;
+      width: fit-content;
       margin: 0 32px;
       outline: none;
       border: none;
+      box-shadow: none;
       cursor: pointer;
+      background-image: url("data:image/svg+xml;charset=utf-8,<svg width='10' height='6' fill='none' xmlns='http:%2F%2Fwww.w3.org/2000/svg'><path d='M1 1l4 4 4-4' stroke='dimgray' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+      -moz-appearance: none;
+      -webkit-appearance: none;
       @media only screen and (max-width: 650px) {
         margin: 0 16px;
       }
@@ -114,7 +122,6 @@ header {
         opacity: 0.7;
       }
       & option {
-        color: #755552;
         max-width: min-content;
       }
     }
