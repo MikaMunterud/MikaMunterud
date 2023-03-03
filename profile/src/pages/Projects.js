@@ -85,6 +85,18 @@ export default function Projects() {
           description={t("pizzaRestaurant_description")}
           webbLang={"🇬🇧"}
         />
+
+        <Project
+          linkWebb={"https://s110398.wixsite.com/whereismygarmentmade"}
+          linkTextWebb={t("project_webb")}
+          imgLink={
+            "https://icicathy.sirv.com/profile/WhereIsMyGarmentMadeHomepage.png?w=600"
+          }
+          imgAlt={"My first webpage from University of Borås"}
+          heading={t("wimgm")}
+          description={t("wimgm_description")}
+          webbLang={"🇬🇧"}
+        />
       </div>
     </section>
   );

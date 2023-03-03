@@ -27,12 +27,14 @@ export default function ProjectDescription({
           linkText={linkTextWebb}
           className={"website"}
         />
-        <IconLink
-          icon={<ImGithub />}
-          link={linkGit}
-          linkText={linkTextGit}
-          className={"gitHub"}
-        />
+        {linkGit && (
+          <IconLink
+            icon={<ImGithub />}
+            link={linkGit}
+            linkText={linkTextGit}
+            className={"gitHub"}
+          />
+        )}
 
         {linkYouTube && (
           <IconLink
