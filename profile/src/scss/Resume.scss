@@ -42,6 +42,7 @@
             &.course {
               font-size: 1em;
             }
+
             &::marker {
               content: none;
             }
@@ -65,9 +66,6 @@
             margin-left: 12px;
             transform: rotate(90deg);
           }
-          // &[open] .heading:hover > .paperPlane {
-          //   transform: rotate(0deg);
-          // }
         }
 
         & .courses {
@@ -80,18 +78,17 @@
           @media only screen and (max-width: 1000px) {
             flex-direction: column;
           }
-          &_col {
-            width: 50%;
-            @media only screen and (max-width: 1000px) {
-              width: 100%;
-            }
-            & ul {
-              list-style: none;
-              gap: 8px 32px;
-              margin: 0;
-              padding: 0;
-              text-align: left;
-            }
+          & .detailsText {
+            font-size: 1em;
+            padding-right: 32px;
+          }
+
+          & ul {
+            list-style: none;
+            gap: 8px 32px;
+            margin: 0;
+            padding: 0;
+            text-align: left;
           }
         }
       }

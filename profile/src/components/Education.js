@@ -46,6 +46,15 @@ export default function Education({ t }) {
           startDate={"2020-08-31"}
           endDate={"2021-10-30"}
           degree={t("education_degree3")}
+          finishedCourses={[
+            t("education_school3_course1"),
+            t("education_school3_course2"),
+            t("education_school3_course3"),
+            t("education_school3_course4"),
+            t("education_school3_course5"),
+            t("education_school3_course6"),
+          ]}
+          finishedHeading={t("finished")}
         />
 
         <School
@@ -53,6 +62,9 @@ export default function Education({ t }) {
           startDate={"2015-08-31"}
           endDate={"2018-06-01"}
           degree={t("education_degree4")}
+          finishedHeading={t("education_details")}
+          detailsText1={t("education_details_text1")}
+          detailsText2={t("education_details_text2")}
         />
       </div>
     </section>
