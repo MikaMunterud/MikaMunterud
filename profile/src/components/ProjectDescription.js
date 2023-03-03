@@ -24,13 +24,13 @@ export default function ProjectDescription({
         <IconLink
           icon={<FiExternalLink />}
           link={linkWebb}
-          aria-label={linkTextWebb}
+          linkText={linkTextWebb}
           className={"website"}
         />
         <IconLink
           icon={<ImGithub />}
           link={linkGit}
-          aria-label={linkTextGit}
+          linkText={linkTextGit}
           className={"gitHub"}
         />
 
@@ -38,7 +38,7 @@ export default function ProjectDescription({
           <IconLink
             icon={<TfiYoutube />}
             link={linkYouTube}
-            aria-label={linkTextYouTube}
+            linkText={linkTextYouTube}
             className={"youTube"}
           />
         )}
