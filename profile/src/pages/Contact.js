@@ -179,22 +179,29 @@ export default function Contact() {
               link={"https://www.linkedin.com/in/mikamunterud94/"}
               linkText={t("linkedInLink")}
               icon={<SiLinkedin />}
+              description={t("linkedInLink")}
             />
             <IconLink
               link={"https://github.com/MikaMunterud"}
               linkText={t("githubLink")}
               icon={<ImGithub />}
+              description={t("githubLink")}
             />
-            <HiOutlineMail
-              className="mail"
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              id="mailDiv"
               onClick={function () {
                 if (window.innerWidth > 900) {
                   smoothScroll("#contact");
                 } else {
-                  smoothScroll("#contactIcons");
+                  smoothScroll("#mailDiv");
                 }
               }}
-            />
+            >
+              <HiOutlineMail className="mail" />
+              <span>{t("contact")}!</span>
+            </div>
           </div>
         </div>
       </div>

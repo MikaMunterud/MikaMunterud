@@ -7,13 +7,15 @@ export default function IconListInfo({ icon, heading, description, link }) {
   }, []);
 
   if (icon && heading && description && link) {
-    <li data-aos="fade-up" data-aos-duration="1400">
-      {icon}
-      <a href={link}>
-        <strong> {heading}: </strong>
-        <span>{description}</span>
-      </a>
-    </li>;
+    return (
+      <li data-aos="fade-up" data-aos-duration="1400">
+        {icon}
+        <a href={link}>
+          <strong> {heading}: </strong>
+          <span>{description}</span>
+        </a>
+      </li>
+    );
   }
 
   return (

@@ -1,10 +1,17 @@
+import Aos from "aos";
+import { useEffect } from "react";
+
 export default function IconLink({
   icon,
   link,
   className,
   dataHover,
   linkText,
+  description,
 }) {
+  useEffect(function () {
+    Aos.init();
+  }, []);
   if (icon && link && className && dataHover) {
     return (
       <a
@@ -30,6 +37,21 @@ export default function IconLink({
         className={className}
       >
         {icon}
+      </a>
+    );
+  }
+
+  if (icon && link && linkText && description) {
+    return (
+      <a
+        href={link}
+        target="_blank"
+        aria-label={linkText}
+        rel="noreferrer"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
+        {icon} <span>{description}</span>
       </a>
     );
   }

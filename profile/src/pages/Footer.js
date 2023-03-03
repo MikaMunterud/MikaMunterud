@@ -55,7 +55,11 @@ export default function Footer() {
         <HiOutlineMail
           className="mail"
           onClick={function () {
-            smoothScroll("#contact");
+            if (window.innerWidth > 900) {
+              smoothScroll("#contact");
+            } else {
+              smoothScroll("#mailDiv");
+            }
           }}
         />
       </div>
