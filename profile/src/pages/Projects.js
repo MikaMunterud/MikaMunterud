@@ -35,7 +35,7 @@ export default function Projects() {
           webbLang={"🇬🇧"}
         />
         <Project
-          linkWebb={"https://mikamunterud.github.io/Adventures/"}
+          linkWebb={"https://adventures-mikamunterud.vercel.app/"}
           linkGit={"https://github.com/MikaMunterud/Adventures"}
           linkTextWebb={t("project_webb")}
           linkTextGit={t("project_gitHub")}
