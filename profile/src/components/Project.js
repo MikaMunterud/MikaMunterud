@@ -32,7 +32,7 @@ export default function Project({
         rel="noreferrer"
         aria-label={linkTextWebb}
       >
-        <img src={imgLink} alt={imgAlt}></img>
+        <img src={imgLink} alt={imgAlt} width={600} height={435}></img>
       </a>
       <ProjectDescription
         heading={heading}
