@@ -28,8 +28,11 @@ export default function Skills({ t }) {
             heading={"FrontEnd"}
             array={["JavaScript", "HTML", "CSS", "SCSS", "React"]}
           />
-          <SkillList heading={"BackEnd"} array={["Node.js", "Java"]} />
-          <SkillList heading={t("database")} array={["MySQL"]} />
+          <SkillList
+            heading={"BackEnd"}
+            array={["Node.js", "Express", "Java"]}
+          />
+          <SkillList heading={t("database")} array={["MySQL", "MongoDB"]} />
         </div>
       </div>
     </section>
