@@ -20,4 +20,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SECRET }}
         with:
-          USERNAME: ${{ github.MikaMunterud }}
+          USERNAME: ${{ github.repository_owner }}
