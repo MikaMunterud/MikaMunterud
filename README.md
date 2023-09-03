@@ -15,22 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div style="position: relative;">
-
-<div style="position: absolute;width=100%;width: 50%;top: 50%;left: 50%;transform: translate(-75%, -60%);">
-
-<font size="7">
-Mika Munterud
-</font>
-
-<font size="6">
-Web development student, design technician & globetrotter
-</font>
-
-</div>
-<img src="./profile/public/profile background1.jpg">
-
-</div>
+<img src="./profile/public/profile background.jpg">
 
 <br>
 
