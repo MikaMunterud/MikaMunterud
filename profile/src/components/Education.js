@@ -23,14 +23,11 @@ export default function Education({ t }) {
             t('course_1'),
             t('course_2'),
             t('course_3'),
-          ]}
-          finishedHeading={t('finished')}
-          comingCourses={[
             t('course_4'),
             t('course_5'),
-            t('course_6'),
-            t('course_7'),
           ]}
+          finishedHeading={t('finished')}
+          comingCourses={[t('course_6'), t('course_7')]}
           comingHeading={t('course')}
         />
 
